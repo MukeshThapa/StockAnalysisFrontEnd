@@ -1,0 +1,16 @@
+<!-- Toolbar with Menu -->
+<mat-toolbar color="primary">
+    <span>Stock Data App</span>
+    <span class="spacer"></span>
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="/">Home</button>
+      <button mat-menu-item routerLink="/page1">Page 1</button>
+      <button mat-menu-item routerLink="/page2">Page 2</button>
+    </mat-menu>
+  </mat-toolbar>
+  
+  <!-- Main Content -->
+  <div class="content">
+    <router-outlet></router-outlet> <!-- Router outlet for rendering pages -->
+  </div>

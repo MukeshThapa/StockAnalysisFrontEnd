@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  mat-paginator {
+    margin-top: 20px;
+  }
+
+  .highlight-column {
+    background-color: #f0f8ff; /* Light blue background */
+    font-weight: bold; /* Bold text */
+  }
+
+  .highlight-column {
+    background-color: #f0f8ff; /* Light blue background */
+    font-weight: bold; /* Bold text */
+  }
+
+  /* Toolbar styling */
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* Main content styling */
+.content {
+  padding: 20px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+}
+
+/* Highlight column styling */
+.highlight-column {
+  background-color: #f0f8ff; /* Light blue background */
+  font-weight: bold; /* Bold text */
+}
